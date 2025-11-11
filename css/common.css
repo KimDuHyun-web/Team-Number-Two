@@ -1,0 +1,27 @@
+:root{
+/* Layout */
+--base-unit:27px;
+--container:1200px;
+
+/* Color styles */
+--black: rgba(18, 18, 18, 1);
+--dark-gray: rgba(51, 51, 51, 1);
+--medium-gray: rgba(102, 102, 102, 1);
+--light-gray: rgba(161, 161, 161, 1);
+--BG-gray: rgba(244, 244, 244, 1);
+--white: rgba(255, 255, 255, 1);
+--primary: rgba(36, 138, 255, 1);
+--primary-BG: rgba(250, 252, 255, 1);
+
+/* Text-size-styles */
+--font:"Pretendard" , "sans-serif";
+--h1: calc(var(--base-unit) * 1.48);
+--h2: calc(var(--base-unit) * 1.26);
+--h3: calc(var(--base-unit) * 0.666);
+--body: calc(var(--base--unit) * 0.592);
+--desc: calc(var(--base--unit) * 0.518);
+--content-h3: calc(var(--base--unit) * 0.666);
+--Edu-title: calc(var(--base--unit) * 0.777);
+--label: calc(var(--base--unit) * 0.444);
+--footer-text: calc(var(--base--unit) * 0.518);
+}
