@@ -210,17 +210,15 @@ ul.edu_online .label {
 .result_list {
   display: flex;
   justify-content: center;
+  align-items: baseline;
   flex-wrap: wrap;
   gap: 0 calc(var(--base-unit) * 3);
   margin-top: var(--base-unit);
 }
-
 .result_item {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
-  align-self: baseline;
-  color: var(--white);
 }
 .result_item figure {
   display: flex;
