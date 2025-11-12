@@ -1,0 +1,83 @@
+
+/* contents */
+
+/* edu */
+section > div {
+  display: flex;
+  flex-flow: column wrap;
+  gap: var(--base-unit);
+}
+.edu_list {
+  display: flex;
+  flex-flow: column wrap;
+  gap: var(--body) 0;
+
+  width: 100%;
+  overflow: hidden;
+}
+.edu_list .edutitle {
+  color: var(--black);
+}
+
+.edu_list ul {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--base-unit) 24px;
+}
+.edu_item {
+  display: flex;
+  flex-flow: column wrap;
+  gap: var(--body);
+  width: 282px;
+}
+ul.edu_online .label {
+  display: none;
+}
+figure {
+  width: 100%;
+}
+.edu_item figure {
+  position: relative;
+}
+.edu_item figure .label {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  color: var(--white);
+}
+.date_box {
+  display: flex;
+  gap: 0 8px;
+}
+.date_title {
+  color: var(--light-gray);
+}
+.date {
+  color: var(--medium-gray);
+}
+
+/* result */
+
+.result {
+  background: var(--primary);
+}
+.result .title {
+  color: var(--white);
+}
+
+.result_list {
+  display: flex;
+  justify-content: center;
+}
+
+.result_item {
+  display: flex;
+  flex-flow: column wrap;
+  color: var(--white);
+}
+.result_item figure {
+  background: var(--white);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
