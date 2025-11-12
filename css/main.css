@@ -126,7 +126,6 @@ figure {
 }
 
 .banner_bg{
-  width: 1200px;
   height: 135px;
   border-radius: 15px;
   padding: 7px 22px;
@@ -162,11 +161,14 @@ figure {
   background-color: var(--white);
   margin-right: 25px;
 }
+.review{
+  padding: 13.5px 33px;
+}
 .circle{
   width: 40px;
   height: 40px;
   border-style: solid;
-  border-radius: 25px;
+  border-radius: 50%;
   border-width: 0.1px;
   display: flex;
   background: var(--BG-gray);
