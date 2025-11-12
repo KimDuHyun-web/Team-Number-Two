@@ -1,9 +1,6 @@
 /* header */
 .nav {
   height: calc(var(--base-unit) * 3);
-  /* line-height: calc(var(--base-unit) * 3); */
-  width: var(--container);
-  margin: 0 auto;
 }
 
 .nav {
@@ -94,10 +91,21 @@
 /* header banner */
 .header_banner {
   background: var(--primary);
-}
-.header_banner {
   color: var(--white);
 }
+.header_banner .container {
+  position: relative;
+}
+.header_banner .container:after {
+  content: url('../images/header-img.png');
+  position: absolute;
+  right: 0;
+  bottom: -24px;
+  width: 204px;
+  height: 204px;
+}
+
+.header
 .header_label {
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
@@ -203,18 +211,28 @@ ul.edu_online .label {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 0 calc(var(--base-unit) * 3);
+  margin-top: var(--base-unit);
 }
 
 .result_item {
   display: flex;
   flex-flow: column wrap;
+  justify-content: space-around;
+  align-self: baseline;
   color: var(--white);
 }
 .result_item figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--white);
   border-radius: 50%;
   width: 120px;
   height: 120px;
+}
+.result_item figure img {
+  width: 82px;
 }
 
 .banner_bg{
