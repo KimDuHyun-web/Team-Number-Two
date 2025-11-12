@@ -129,9 +129,6 @@ figure {
   height: 135px;
   border-radius: 15px;
   padding: 7px 22px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   background-image: linear-gradient(to bottom, #000d1f, #1e1125, #35111f, #401a10, #3b2a00);
 }
 .banner_bg h2{
@@ -161,13 +158,9 @@ figure {
   background-color: var(--white);
   margin-right: 25px;
 }
-.review{
-  padding: 13.5px 33px;
-}
 .circle{
   width: 40px;
   height: 40px;
-  border-style: solid;
   border-radius: 50%;
   border-width: 0.1px;
   display: flex;
@@ -184,8 +177,6 @@ figure {
   border-color: var(--primary);
   border-radius: 4px;
   background: var(--white);
-  /* display: flex;
-  text-align: center; */
   padding: 20px 0;
 }
 
