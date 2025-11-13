@@ -31,7 +31,7 @@
 .menu>li {
   padding: 4px 8px;
   border-radius: var(--border-r);
-  transition: background 0.3s;
+  transition: background-color 0.3s;
 }
 
 .menu>li:hover {
@@ -46,6 +46,7 @@
   margin-left: 4px;
 }
 .submenu_box {
+  display: none;
   position: absolute;
   left: -20px;
   top: 100%;
@@ -53,9 +54,9 @@
   background: var(--white);
   padding: 20px;
   gap: 0 48px;
-  width: max-content;
   border-radius: var(--border-r);
-  display: none;
+  min-width: 140px;
+  white-space: nowrap;
 }
 .submenu:hover .submenu_box {
   display: flex; 
@@ -66,13 +67,17 @@
 .submenu_box ul {
   display: flex;
   flex-flow: column wrap;
-  color: var(--light-gray);
   gap: 8px 0;
 }
 .submenu_box ul li {
   display: flex;
   align-items: center;
   font-size: var(--body);
+}
+.submenu_box ul li:first-of-type {
+  color: var(--light-gray);
+  font-size: var(--desc);
+  margin-bottom: 4px;
 }
 .submenu_box ul li a:hover {
   text-decoration: underline;
@@ -105,7 +110,6 @@
   height: 204px;
 }
 
-.header
 .header_label {
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
@@ -148,6 +152,28 @@ section > div {
 }
 ul.edu_online .label {
   display: none;
+}
+
+.edu_item span.label {
+  padding: 8px;
+  border-radius: var(--border-r);
+}
+
+.edu_item span.gj_north {
+  background: #3A24FF;
+}
+.edu_item span.gj_east {
+  background: #3A24FF;
+
+}
+.edu_item span.su_hj {
+  background: #1AC828;
+}
+.edu_item span.jj {
+  background: #F09F27;
+}
+.edu_item span.mp {
+  background: #3A24FF;
 }
 
 .edu_item > a {
@@ -210,17 +236,15 @@ ul.edu_online .label {
 .result_list {
   display: flex;
   justify-content: center;
+  align-items: baseline;
   flex-wrap: wrap;
-  gap: 0 calc(var(--base-unit) * 3);
+  gap: 0 80px;
   margin-top: var(--base-unit);
 }
-
 .result_item {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
-  align-self: baseline;
-  color: var(--white);
 }
 .result_item figure {
   display: flex;
@@ -240,23 +264,17 @@ ul.edu_online .label {
   border-radius: 15px;
   padding: 7px 22px;
   background-image: linear-gradient(to bottom, #000d1f, #1e1125, #35111f, #401a10, #3b2a00);
-  position: relative;
 }
 .banner_bg h2{
   color: var(--white);
-  padding-top: 27px;
-  gap: 10px;
+  margin-bottom: 0;
 }
 .banner_bg p{
   color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 27px;
-}
-.banner_bg img{
-  position: absolute;
+  margin-top: 6px;
 }
 .content_title{
   text-align: center;
-  padding-top: 0;
 }
 .content_title h2{
   padding-bottom: 10px;
@@ -333,4 +351,3 @@ footer >p{
  font-size: var(--footer-text);
  color: var(--dark-gray);
  padding-top: 27px;
-}
