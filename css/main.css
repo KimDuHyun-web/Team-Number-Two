@@ -223,7 +223,14 @@ ul.edu_online .label {
 .date {
   color: var(--medium-gray);
 }
-
+/* special/benefit */
+.special .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  
+}
 /* result */
 
 .result {
