@@ -259,11 +259,14 @@ ul.edu_online .label {
   width: 82px;
 }
 
+/* banner */
+
 .banner_bg{
   height: 135px;
   border-radius: 15px;
   padding: 7px 22px;
   background-image: linear-gradient(to bottom, #000d1f, #1e1125, #35111f, #401a10, #3b2a00);
+  position: relative;
 }
 .banner_bg h2{
   color: var(--white);
@@ -272,6 +275,10 @@ ul.edu_online .label {
 .banner_bg p{
   color: rgba(255, 255, 255, 0.7);
   margin-top: 6px;
+}
+.banner_bg img{
+  position: absolute;
+  right: 0;
 }
 .content_title{
   text-align: center;
@@ -295,18 +302,19 @@ ul.edu_online .label {
   justify-content: center;
   align-items:center;
 }
-.review .button{
-  margin: 0 auto;
-}
 .box_ft{
   padding: 0;
   width: 383px;
   float: left;
   display: flex;
-}
-.box_ft > *{
   background-color: var(--white);
   margin-right: 25px;
+}
+.box_ft:nth-child(4){
+  margin-right: 0;
+}
+.review .button{
+  margin: 0 auto;
 }
 .circle{
   width: 40px;
@@ -331,11 +339,25 @@ ul.edu_online .label {
 .qna >h3{
   padding: 54px 0 0 0;
 }
+.faq{
+  width: 100%;
+  position: relative;
+}
 .faq .answer{
   display: none;
 }
 .faq .active .answer{
   display: block;
+}
+.faq button{
+  position: absolute;
+  color: var(--dark-gray);
+}
+.faq button span{
+  font-size: 18px;
+}
+.faq button.seem{
+  right: 0;
 }
 /* footer */
 footer div p{
@@ -351,3 +373,4 @@ footer >p{
  font-size: var(--footer-text);
  color: var(--dark-gray);
  padding-top: 27px;
+}
