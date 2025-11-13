@@ -240,24 +240,31 @@ ul.edu_online .label {
   border-radius: 15px;
   padding: 7px 22px;
   background-image: linear-gradient(to bottom, #000d1f, #1e1125, #35111f, #401a10, #3b2a00);
+  position: relative;
 }
 .banner_bg h2{
   color: var(--white);
-  margin-bottom: 0;
+  padding-top: 27px;
+  gap: 10px;
 }
 .banner_bg p{
   color: rgba(255, 255, 255, 0.7);
-  margin-top: 6px;
+  padding-bottom: 27px;
+}
+.banner_bg img{
+  position: absolute;
 }
 .content_title{
   gap: 10px;
   text-align: center;
+  padding-top: 0;
 }
 .content_title p{
   color: var(--medium-gray);
 }
 .review button{
   display: flex;
+  justify-content: center ;
 }
 .box_ft{
   padding: 0;
@@ -275,6 +282,9 @@ ul.edu_online .label {
   border-width: 0.1px;
   display: flex;
   background: var(--BG-gray);
+}
+.star{
+  color:#FFD940;
 }
 .button{
   width: 180px;
