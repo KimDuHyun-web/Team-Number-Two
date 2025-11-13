@@ -223,7 +223,42 @@ ul.edu_online .label {
 .date {
   color: var(--medium-gray);
 }
-
+/* special/benefit */
+.special{
+  background-color: var(--primary-BG);
+}
+.special .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 54px;
+}
+.special_list{
+  display: flex;
+  gap: 24px;
+}
+.special_list li{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 27px;
+}
+.special_list li .icon{
+  background-color: var(--primary);
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.special_list .content h3 {
+margin-bottom: 27px;
+}
+.special_list .content p {
+  color: var(--medium-gray);
+}
 /* result */
 
 .result {
