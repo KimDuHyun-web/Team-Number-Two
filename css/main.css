@@ -229,7 +229,12 @@ ul.edu_online .label {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  
+}
+.special .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 /* result */
 
