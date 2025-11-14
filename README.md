@@ -8,7 +8,7 @@
 
 ## 빠른 링크
 
-- [디자인(피그마)] (<https://www.figma.com/design/PbYtwM2vSago0OG5hlMbIv/%ED%8C%80%ED%94%8C-2%EC%A1%B0-%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=FZxgWIRGGd1m1t2A-1>)
+- [디자인(피그마)] 🔗(<https://www.figma.com/design/PbYtwM2vSago0OG5hlMbIv/%ED%8C%80%ED%94%8C-2%EC%A1%B0-%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=FZxgWIRGGd1m1t2A-1>)
 - [기획서(피그마 슬라이드)] (추가 예정)
 
 ## 프로젝트 개요
@@ -76,25 +76,25 @@ gantt
 ## 2. 개발 환경 및 배포
 
 ### frontend
-HTML/CCS3
+✅ HTML/CCS3
 
 
 ### Tools
-**Deployment:** VScode
+**✅Deployment:** VScode
 
-**Version Control:** GIt & GitHub
+**✅Version Control:** GIt & GitHub
 
-**Design:** Figma
+**✅Design:** Figma
 
 
 ### 2.2 배포 URL
-**Production:** ([Team Number Two](https://kimduhyun-web.github.io/Team-Number-Two/))
+**Production:** 🔗([Team Number Two](https://kimduhyun-web.github.io/Team-Number-Two/))
 
 
 ### 2.3 개발 컨벤션
-**HTML 컨벤션:** (링크 추가 예정)
+**HTML 컨벤션:** 🔗(링크 추가 예정)
 
-**CSS 컨벤션:** (링크 추가 예정)
+**CSS 컨벤션:** 🔗(링크 추가 예정)
 
 
 ## 3.프로젝트 구조
