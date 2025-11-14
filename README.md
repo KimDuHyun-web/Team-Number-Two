@@ -24,7 +24,7 @@
 | --- | --- | --- | --- | --- |
 | 김두현 | 팀장·기획·디자인·코딩·회의록 정리 | content - banner, faq, footer| KimDuHyun-web | duhyeon467@gmail.com |
 | 김진선 | 기획·디자인·코딩 | header - nav, banner / content - edu, result | buniary | steamedbun.lab@gmail.com |
-| 조창희 | 코딩 | content - specail, benefit | GiHubt | Email |
+| 조창희 | 코딩 | content - specail, benefit | fifa293949-png | fifa293949@gmail.com |
 
 ### 1.3 마일스톤
 
@@ -93,6 +93,7 @@ gantt
 
 ### 2.3 개발 컨벤션
 **HTML 컨벤션:** 🔗(https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_html.md)
+
 **CSS 컨벤션:** 🔗(https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_css.md)
 
 
