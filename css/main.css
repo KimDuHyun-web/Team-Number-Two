@@ -338,26 +338,30 @@ margin-bottom: 27px;
 .content_title p{
   color: var(--medium-gray);
 }
+
+/* 공통으로 사용하는 button은 텍스트 길이가 길면 안 보일 수 있어서 넓이 값을 지정하는 것보다 padding 값으로 여백을 주고 width을 줄거면 min-width 최소 넓이를 지정해주는 게 좋습니다 */
 .button{
-  width: 180px;
+  min-width: 180px;
   height: 54px;
   font-size: var(--h3);
   font-weight: 700;
   color: var(--primary);
-  border: 1px solid var(--white);
-  border-color: var(--primary);
+  background: var(--white);
+  border: 1px solid var(--primary);
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items:center;
+  padding: 0 27px;
 }
 .star{
   padding: 0 auto;
   color:#FFD940;
 }
 .review_list{
-  padding-top: 64px;
-  margin-bottom: 54px;
+  /* 컨텐츠 제목과 컨텐츠 사이 54px로 통일*/ 
+  padding-top: var(--base-unit);
+  margin-bottom: calc(var(--base-unit) * 2); 
 }
 .box_ft{
   padding: 0;
@@ -367,7 +371,7 @@ margin-bottom: 27px;
   display: flex;
   background-color: var(--white);
   margin-right: 25px;
-  box-shadow: 0 0 2px;
+  box-shadow: 0 0 2px var(--light-gray); /* color 빠져서 추가했어요*/
   border-radius: 15px;
   flex-direction: column;
   padding: 24px 24px 37px 24px;
@@ -401,7 +405,8 @@ margin-bottom: 27px;
 }
 .qna h2{
   text-align: center;
-  padding-bottom: 97px;
+  /* 컨텐츠 제목과 컨텐츠 사이 54px로 통일*/ 
+  padding-bottom: calc(var(--base-unit) * 2); 
   margin: 0 auto;
 }
 .qna >h3{
@@ -416,6 +421,7 @@ margin-bottom: 27px;
   align-items: center;
   padding: 24px;
 }
+
 .faq span{
   display: flex;
   align-items: center;
@@ -425,12 +431,17 @@ margin-bottom: 27px;
 }
 .faq .active .answer{
   display: block;
+  background: var(--BG-gray);
 }
 .chat{
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 24px;
+  align-items: center;
+  background: var(--primary-BG);
+  border-radius: var(--border-r);
+  margin-top: 24px;
 }
 .faq button{
   position: absolute;
