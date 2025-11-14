@@ -92,9 +92,8 @@ gantt
 
 
 ### 2.3 개발 컨벤션
-**HTML 컨벤션:** 🔗(링크 추가 예정)
-
-**CSS 컨벤션:** 🔗(링크 추가 예정)
+**HTML 컨벤션:** 🔗(https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_html.md)
+**CSS 컨벤션:** 🔗(https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_css.md)
 
 
 ## 3.프로젝트 구조
