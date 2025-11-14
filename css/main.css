@@ -514,6 +514,14 @@ footer div p{
   border-right: 1.5px solid var(--light-gray);
   font-weight: 700;
 }
+<<<<<<< HEAD
+footer >p{
+ font-weight: 700;
+ font-size: var(--footer-text);
+ color: var(--dark-gray);
+ padding-top: 27px;
+}
+=======
 .footer_bg .copy{
   padding: 43px 0 24px 0;
 }
@@ -522,3 +530,4 @@ footer div p{
   color: var(--dark-gray);
   padding-bottom: 81px;
 }
+>>>>>>> origin/main
