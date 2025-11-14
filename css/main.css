@@ -338,8 +338,6 @@ margin-bottom: 27px;
 .content_title p{
   color: var(--medium-gray);
 }
-
-/* 공통으로 사용하는 button은 텍스트 길이가 길면 안 보일 수 있어서 넓이 값을 지정하는 것보다 padding 값으로 여백을 주고 width을 줄거면 min-width 최소 넓이를 지정해주는 게 좋습니다 */
 .button{
   min-width: 180px;
   height: 54px;
@@ -358,8 +356,7 @@ margin-bottom: 27px;
   padding: 0 auto;
   color:#FFD940;
 }
-.review_list{
-  /* 컨텐츠 제목과 컨텐츠 사이 54px로 통일*/ 
+.review_list{ 
   padding-top: var(--base-unit);
   margin-bottom: calc(var(--base-unit) * 2); 
 }
@@ -371,7 +368,7 @@ margin-bottom: 27px;
   display: flex;
   background-color: var(--white);
   margin-right: 25px;
-  box-shadow: 0 0 2px var(--light-gray); /* color 빠져서 추가했어요*/
+  box-shadow: 0 0 2px var(--light-gray);
   border-radius: 15px;
   flex-direction: column;
   padding: 24px 24px 37px 24px;
@@ -405,7 +402,6 @@ margin-bottom: 27px;
 }
 .qna h2{
   text-align: center;
-  /* 컨텐츠 제목과 컨텐츠 사이 54px로 통일*/ 
   padding-bottom: calc(var(--base-unit) * 2); 
   margin: 0 auto;
 }
