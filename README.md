@@ -1,7 +1,9 @@
-# ACME PORTFOLIO
+# Team Number Two (1차 프로젝트)
 
 **과정명:** [이스트캠프] 오르미 프론트엔드 개발(React, HTML/CSS/JavaScript)
+
 **기간:** 2025-10-16 ~ 2026-03-04
+
 **1차 프로젝트:**  2025-11-10 ~ 2025-11-17
 
 ## 빠른 링크
@@ -14,16 +16,15 @@
 ### 1.1 목표
 
 **사이트 리뉴얼:** 이스트캠프 사이트의 장점과 단점을 분석 후 참조 사이트를 참고하여 보완
-
 **협업 경험:** 수업 내용을 토대로 피그마와 웹표준에 맞춘 코딩 경험
 
 ### 1.2 팀원
 
-| 이름 |  역할 | 주요 담당 |
-|--- | --- | --- |
-| 김두현 | 팀장·기획·디자인·코딩·회의록 정리 |   content - banner, faq, footer|
-| 김진선 | 기획·디자인·코딩 |  header - nav, banner / content - edu, result |
-| 조창희 | 코딩 | content - specail, benefit |
+| 이름 |  역할 | 주요 담당 | GiHubt | Email |
+| --- | --- | --- | --- | --- |
+| 김두현 | 팀장·기획·디자인·코딩·회의록 정리 | content - banner, faq, footer| KimDuHyun-web | duhyeon467@gmail.com |
+| 김진선 | 기획·디자인·코딩 | header - nav, banner / content - edu, result | buniary | steamedbun.lab@gmail.com |
+| 조창희 | 코딩 | content - specail, benefit | GiHubt | Email |
 
 ### 1.3 마일스톤
 
@@ -80,7 +81,9 @@ HTML/CCS3
 
 ### Tools
 **Deployment:** VScode
+
 **Version Control:** GIt & GitHub
+
 **Design:** Figma
 
 
@@ -90,6 +93,7 @@ HTML/CCS3
 
 ### 2.3 개발 컨벤션
 **HTML 컨벤션:** (링크 추가 예정)
+
 **CSS 컨벤션:** (링크 추가 예정)
 
 
