@@ -102,10 +102,13 @@ gantt
 **Production:** 🔗([Team Number Two](https://kimduhyun-web.github.io/Team-Number-Two/))
 
 
-### 2.3 개발 컨벤션
-**HTML 컨벤션:** 🔗(https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_html.md)
+### 2.3 개발 컨벤션 가이드
 
-**CSS 컨벤션:** 🔗(https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_css.md)
+프로젝트에서 사용하는 HTML, CSS 작성 규칙은 아래 문서 참고 
+
+🔗([HTML 컨벤션](https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_html.md))
+
+🔗([CSS 컨벤션](https://github.com/KimDuHyun-web/Team-Number-Two/blob/header/docs/guide_css.md))
 
 
 ---
