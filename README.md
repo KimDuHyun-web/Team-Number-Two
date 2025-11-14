@@ -94,7 +94,7 @@ HTML/CCS3
 
 
 ## 3.프로젝트 구조
-
+```
 📦Team-Number-Two
  ┣ 📂css
  ┃ ┣ 📜common.css             # 공통 css(layout, typo, 변수)
@@ -105,7 +105,7 @@ HTML/CCS3
  ┣ 📜common.html              # 공통 html(컨텐츠 title, box)
  ┣ 📜index.html               # 메인 페이지
  ┗ 📜README.md
-
+```
 ## 4.제작후기
 
 ##### 미작성
