@@ -28,6 +28,7 @@
 | 김두현 | 팀장·기획·디자인·코딩·회의록 정리 | content - banner, faq, footer| KimDuHyun-web | duhyeon467@gmail.com |
 | 김진선 | 기획·디자인·코딩 | header - nav, banner / content - edu, result | buniary | steamedbun.lab@gmail.com |
 | 조창희 | 코딩 | content - specail, benefit | fifa293949-png | fifa293949@gmail.com |
+| 임은현 | --- | --- | --- | --- |
 
 
 
