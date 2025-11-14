@@ -74,30 +74,36 @@ gantt
 
 ## 2. 개발 환경 및 배포
 
-##### frontend
+### frontend
 HTML/CCS3
 
-##### Tools
 
+### Tools
 **Deployment:** VScode
-
 **Version Control:** GIt & GitHub
-
 **Design:** Figma
 
-### 2.2 배포 URL
 
+### 2.2 배포 URL
 **Production:** ([Team Number Two](https://kimduhyun-web.github.io/Team-Number-Two/))
 
+
 ### 2.3 개발 컨벤션
-
 **HTML 컨벤션:** (링크 추가 예정)
-
 **CSS 컨벤션:** (링크 추가 예정)
 
-## 3.프로젝트 구조
 
-##### 
+## 3.프로젝트 구조
+📦Team-Number-Two
+ ┣ 📂css
+ ┃ ┣ 📜common.css             # 공통 css(layout, typo, 변수)
+ ┃ ┣ 📜main.css               # 메인 전용 스타일
+ ┃ ┣ 📜normalize.css          # 브라우저 간 일관성 확보
+ ┃ ┗ 📜reset.css              # 브라우저 간 호환성 확보
+ ┣ 📂images                   # 이미지 파일
+ ┣ 📜common.html              # 공통 html(컨텐츠 title, box)
+ ┣ 📜index.html               # 메인 페이지
+ ┗ 📜README.md
 
 ## 4.제작후기
 
