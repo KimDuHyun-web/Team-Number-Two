@@ -466,9 +466,13 @@ ul.edu_online .label {
   justify-content: center;
   align-items: center;
   padding: 0 27px;
+  transition: 0.5s;
 }
 
-
+.button:hover {
+  color: var(--white);
+  background: var(--primary);
+}
 
 .review .title p {
   color: var(--medium-gray);
